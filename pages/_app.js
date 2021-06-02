@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <Fragment>
             <Head>
-                <meta charset="UTF-8" />
+                <meta charSet="UTF-8" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta
                     name="viewport"
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
                 />
                 <title>Curso Tailwind</title>
             </Head>
-            <body className="bg-body-pattern bg-scroll">
+            <body className="bg-scroll bg-body-pattern">
                 <Component {...pageProps} />
             </body>
         </Fragment>

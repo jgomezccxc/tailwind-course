@@ -6,11 +6,11 @@ export default function Home() {
             <header id="header" className="h-20 text-white bg-black bebas">
                 <div className="container flex flex-row w-11/12 mx-auto">
                     <div id="logo" className="flex-1">
-                        <div className="mt-4 ml-5 w-64 pt-0.5 pb-0.5 text-center tracking-wider cursor-pointer overflow-hidden transition duration-300 rounded-sm bg-azul-claro hover:text-black hover:bg-gray-200">
-                            <span className="block float-left mt-1 text-3xl symbol ml-11">
+                        <div className="group w-64 pt-0.5 pb-0.5 mt-4 ml-5 text-center tracking-wider cursor-pointer overflow-hidden transition duration-300 rounded-sm bg-azul-claro hover:text-black hover:bg-gray-200">
+                            <span className="block float-left mt-1 text-3xl symbol ml-11 animate-spin-low group-hover:animate-none group-hover:animate-from-bellow">
                                 S
                             </span>
-                            <h3 className="block float-right text-4xl mt-1.5 mr-16 transition duration-100">
+                            <h3 className="block float-right text-4xl mt-1.5 mr-16 transition duration-100 group-hover:animate-from-right">
                                 Tailwind
                             </h3>
                         </div>
