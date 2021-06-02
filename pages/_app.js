@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
                 />
                 <title>Curso Tailwind</title>
             </Head>
-            <body>
+            <body className="bg-body-pattern bg-scroll">
                 <Component {...pageProps} />
             </body>
         </Fragment>
